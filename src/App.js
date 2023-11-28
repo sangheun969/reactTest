@@ -28,8 +28,11 @@ function App() {
     <div className="App">
       <Routes>
         {}
+
         <Route path="/" element={<Main />} />
+
         <Route path="/game" element={<Game />} />
+
         <Route path="/login" element={<Login />} />
         <Route path="/game2" element={<Game2 />} />
         <Route path="/game3" element={<Game3 />} />
